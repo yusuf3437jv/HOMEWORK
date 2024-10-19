@@ -1,0 +1,39 @@
+package datatypes;
+
+public class DataTypesHomework {
+
+	public static void main(String[] args) {
+    int a = 36;
+    int b = 18;
+    int toplama = a+b;
+    int cikarma = a-b;
+    int carpma = a*b;
+    int bolme = a/b;
+    System.out.println("toplama sonucu:"+toplama);
+    System.out.println("çıkarma sonucu:"+cikarma);
+    System.out.println("çarpma sonucu:"+carpma);
+    System.out.println("bölme sonucu:"+bolme);
+    
+    int yukseklik = 72;
+    int taban = 81;
+    int ucgenalan = yukseklik*taban/2;
+    int ucgencevre = taban*3;
+    System.out.println("üçgenin alanı:"+ucgenalan);
+    System.out.println("üçgenın çevresi:"+ucgencevre);
+    		
+    int r = 16;
+    double pi = 3.14;
+    double dairealan = pi*r*r;
+    double dairecevre = 2*pi*r;
+    System.out.println("dairenin alanı:"+dairealan);
+    System.out.println("dairenin çevresi:"+dairecevre);
+ 
+    		
+   
+    		
+    
+		
+	        
+	}
+
+}
